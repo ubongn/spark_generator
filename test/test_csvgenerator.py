@@ -1,5 +1,5 @@
 import unittest
-from csvgen import CsvGenerator 
+from csvGenerator import CsvGenerator 
 
 class TestCsvgen(unittest.TestCase):
     def setUp(self):
