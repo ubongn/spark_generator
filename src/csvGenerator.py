@@ -1,4 +1,4 @@
-class Csvgen:
+class CsvGenerator:
     def __init__(self, dic_columnames_types):
         self.dic_columnames_types = dic_columnames_types
         self.data = None
@@ -30,7 +30,7 @@ column_names_types = {
     "DateOfBirth": "date",
     "IsStudent": "boolean"
 }
-csv_gen = Csvgen(column_names_types)
+csv_gen = CsvGenerator(column_names_types)
 
-sample_data = csv_gen.generate_data(5)
+sample_data = csv_gen.generate_data(2)
 print(sample_data)
